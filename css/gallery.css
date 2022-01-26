@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navigation stlinng */
+.navbar ul li#ph {
+    padding: 5px;
+    color: white;
+}
+
+/* home section  styling */
+
+.header{
+    text-align: center;
+    padding: 10px;
+}
+.header p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 19px;
+    color: red;
+}
+
+.header button{
+    padding: 10px 16px;
+    margin-top: 5px;
+   border: none;
+   border-radius:5px ;
+   background: black;
+   color: white;
+   cursor: pointer;
+}
+
+
+.header button:hover{
+    background: gray;
+}
+/* grid images styling */
+
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap:wrap ;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column{
+    -ms-flex: 50%;
+    flex: 50%;
+    padding: 0 4px;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
